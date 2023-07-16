@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Admission Form</title>
+</head>
+<body>
+    <h1>Student Admission form</h1>
+    <form action="get">
+
+            <label >FULL NAME</label>
+            <input type="text">
+
+            <br><br>
+            <label >Gender</label>
+            <input type="radio" name="gender" checked>Male
+            <input type="radio" name="gender">Female
+
+            <br><br>
+
+            <label >Date of birth</label>
+             <input type="date">
+
+             <br><br>
+
+             <label >State</label>
+            <select >
+                <option >Uttar pradesh</option>
+                <option >Bihar</option>
+                <option >uttarakhand</option>
+                <option >Jharkhand</option>
+                <option >mahrashtra</option>
+            </select>
+
+            <br><br>
+
+            <label >Intermediate Board</label>
+            <input type="text" list="board">
+
+            <datalist id="board">
+                <option >CBSE Board</option>
+                <option > ISC  Board</option>
+                <option >UP Boardd</option>
+                <option >Bihar Board</option>
+            </datalist>
+
+            <br><br>
+
+            <details>
+                <summary>Terms & Conditions</summary>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, debitis. Quasi voluptate iure dicta error ad amet, enim officiis beatae sed dolore non quaerat consequuntur perferendis quis rem similique provident quo eligendi nostrum nisi alias est neque? Distinctio ipsa temporibus libero dignissimos? Consequuntur, nesciunt consectetur! Eaque maxime ut totam voluptates.</p>
+             </details>
+            <button>Submit</button>
+
+
+
+    </form>
+</body>
+</html>
