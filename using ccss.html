@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3{
+            text-decoration:underline ;
+            text-align: center;
+            font-size: 30px;
+        }
+        .myclass{
+            color: blueviolet !important ;
+            font-size: 60px;
+        }
+        /* important keyword hum kahi bhi laga sakte hai */
+        #myid{
+            color: crimson;
+            letter-spacing: 5px;
+            font-size: 40px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        .class1{
+            color: blue;
+        }
+        .class2{
+            color: red;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="color: red; font-size: 50px;">Inline CSS is used to apply CSS in individual tags only</h1>
+
+    <h3>Internal CSS is used to apply on entire page at once  </h3>
+    <h3 class="myclass">Name selector is used to select element by their tag name</h3>
+
+    <p class="myclass">Class Selector is used to select element by their class name</p>
+
+    <p id="myid">ID selector to select element uniquely by their ID name</p>
+
+    <p class="class1 class2">Same Selector priority</p>
+    class1-claas2 matlab ek sath apply hoga
+   
+    <h1>External CSS used to apply o n multiple pages at once</h1>
+</body>
+</html>
