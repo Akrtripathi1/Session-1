@@ -10,9 +10,22 @@
     <form action="get">
 
             <label >FULL NAME</label>
-            <input type="text">
+            <input type="text" required minlength="5">
 
             <br><br>
+
+            <label >Password</label>
+            <input type="password" required>
+
+            <br><br>
+
+            <label >Email</label>
+            <input type="email" required>
+
+            <br><br>
+
+
+
             <label >Gender</label>
             <input type="radio" name="gender" checked>Male
             <input type="radio" name="gender">Female
@@ -35,6 +48,10 @@
 
             <br><br>
 
+            <input type="checkbox" required>
+            <label >I Accep Terms & Conditions</label>
+
+            <br><br>
             <label >Intermediate Board</label>
             <input type="text" list="board">
 
@@ -49,8 +66,18 @@
 
             <details>
                 <summary>Terms & Conditions</summary>
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, debitis. Quasi voluptate iure dicta error ad amet, enim officiis beatae sed dolore non quaerat consequuntur perferendis quis rem similique provident quo eligendi nostrum nisi alias est neque? Distinctio ipsa temporibus libero dignissimos? Consequuntur, nesciunt consectetur! Eaque maxime ut totam voluptates.</p>
+             <p>Lorem ipsum dolor sit amet consectetur <mark>
+                 adipisicing elit. Dolorem, debitis. Quasi voluptate iure dicta error ad amet, enim officiis beatae sed dolore non quaerat consequuntur perferendis</mark> quis rem similique provident quo eligendi nostrum nisi alias est neque? Distinctio ipsa temporibus libero dignissimos? Consequuntur, nesciunt consectetur! Eaque maxime ut totam voluptates.</p>
              </details>
+
+             <br><br>
+
+             <label for="image">Upload passport size photo</label>
+             <input id="image" type="file" hidden>
+
+             <br><br>
+
+
             <button>Submit</button>
 
 
