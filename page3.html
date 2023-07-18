@@ -4,46 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body bgcolor="grey">
+    <style>
+        .class1{
+            font-size: 20px;
+            color:bisque;
+            font-style:oblique;
+            
+        }
+        #myid{
+            text-align: left;
+        }
 
-    <u><h1>Provide Your credentials</h1></u>
+    </style>
+<link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="grey" align="center">
+
+    <u><h1 id="myid" style="text-align: center;">Provide Your credentials</h1></u>
     <form action="get">
-      <label > Full Name</label>
+      <label class="class1" > Full Name</label>
       <input type="text">
 
     <br><br>
 
-    <label >Date of birth</label>
-        <input type="date">
+    <label class="class1">Date of birth</label>
+     <input type="date" >
 
     
         <br><br>
 
-        <label >Gender</label>
+        <label class="class1" >Gender</label>
         <input type="radio" name="gender">Male
         <input type="radio" name="gender">Female
 
 
         <br><br>
 
-        <label >Phone number</label>
+        <label class="class1" >Phone number</label>
         <input type="tel">
 
         <br><br>
 
-
-        <label >Payment option</label>
-        <Select>
-            <option >Credit card</option>
-            <option >Debit card</option>
-            <option >Bhim/upi</option>
-        </Select>
+        <label class="class1">Select time</label>
+           <input type="time">       
 
 
         <br><br>
 
-        <label >Choose Row</label>
+        <label class="class1" >Choose Row</label>
         <input type="text" list="row">
         <datalist id="row">
             <option >A</option>
@@ -56,7 +64,7 @@
 
         <br><br>
 
-        <label >Choose seat number</label>
+        <label class="class1">Choose seat number</label>
             <select>
                 <option >1</option>
             <option >2</option>
@@ -73,7 +81,17 @@
 
             <br><br>
 
-            <button>BOOK</button>
+            <label class="class1" >Payment option</label>
+        <Select>
+            <option >Credit card</option>
+            <option >Debit card</option>
+            <option >Bhim/upi</option>
+        </Select>
+
+        <br><br>
+
+            <button>Book</button>
+            <button>Reset</button>
 
 
 
