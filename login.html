@@ -28,6 +28,9 @@
         border: 1px solid black;
         margin-bottom: 20px;
         margin-top: 10px;
+        border: none;
+        border-bottom:  2px solid black;
+        background-color: #0000002a;
         
        }
         .mybttn{
@@ -50,7 +53,11 @@
         justify-content: center;
         align-items: center;
         height: 100vh; 
-        background-color:black ;
+        /* background-color:black ; */
+        /* background-image: linear-gradient(45deg, yellow, red); */
+        background-image: linear-gradient(0deg,rgba(255, 255, 255, 0.384),#0000006b), url('https://images.pexels.com/photos/305821/pexels-photo-305821.jpeg?cs=srgb&dl=pexels-scott-webb-305821.jpg&fm=jpg');
+        background-size: cover;
+
        }
         .formtitle{
         font-family: Montserrat;
@@ -60,13 +67,19 @@
        *{
         font-family: Montserrat;
        }
+       .logo{
+        width: 100px;
+        margin: auto;
+        display: block;
+       }
 
 
     </style>
 </head>
-<body>
+<body >
     
     <div class="mycard">
+          <img class="logo" src="https://avatars.githubusercontent.com/u/26999847?s=280&v=4" alt="">
             <h3 class="formtitle">Login Here</h3>
 
             <form >

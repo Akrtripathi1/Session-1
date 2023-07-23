@@ -1,0 +1,109 @@
+.first{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+.mycard{
+   padding: 40px;
+   
+    border-radius: 10px; 
+    width: 70%;
+    display: flex;
+    color: black;
+  
+   border: 2px;
+   
+    
+}
+.block1{
+    border: 2px solid black;
+    border-radius: 7px;
+    
+    text-align: left;
+    padding: 40px 60px;
+    background-color: rgba(143, 188, 143, 0.317);
+    
+flex-basis:  60%;
+    box-sizing: border-box;
+    justify-content: center;
+   
+    
+}
+.block2{
+    
+    border: 2px solid black;
+    border-radius:5px ;
+    align-items: center;
+    padding: 40px;
+    background-color: rgba(47, 79, 79, 0.559);
+    flex-basis: 40%;
+
+        
+    
+}
+body{
+    height: 100vh;
+    font-size: 14px;
+    border: 1px;
+    border-radius: 10px;
+    background-image: linear-gradient(0deg,rgba(255, 255, 255, 0.384),#0000006b), url('https://images.pexels.com/photos/305821/pexels-photo-305821.jpeg?cs=srgb&dl=pexels-scott-webb-305821.jpg&fm=jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+*{
+    font-family: Poppins;
+}
+h3{
+    text-align: center;
+}
+input{
+    border: none;
+    outline: none;
+    padding-bottom: 5px;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+.row{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom:20px;
+}
+.row .column{
+    flex-basis: 45%;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+}
+.mybtn{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: cadetblue;
+    color: black;
+    font-weight: bold;
+
+}
+.mybtn :hover{
+    outline: 2px solid  red ;}
+    .mybttn :focus{
+        outline: 3px solid red;
+    }
+    tr td :first-child{
+        padding-right: 20px;
+    }
+    tr td {
+        padding-top: 20px;
+    }
+   .container{
+    width: 80%;
+    margin: 50px auto;
+  
+   }
+  textarea{
+    width:100%;
+    height: 100%;
+  }

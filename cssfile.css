@@ -40,7 +40,7 @@ input{
  }
  .formcntainer{
     border: 2px solid black;
-    flex-basis:  60%;
+    flex-basis:60%;
     padding: 40px 60px   ;
     border-radius: 7px;
     text-align: left ;
